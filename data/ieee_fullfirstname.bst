@@ -17,7 +17,7 @@
 %
 % ---------------------------------------------------------------
 %
-% no guarantee is given that the format corresponds perfectly to 
+% no guarantee is given that the format corresponds perfectly to
 % IEEE 8.5" x 11" Proceedings, but most features should be ok.
 %
 % ---------------------------------------------------------------
@@ -1130,6 +1130,3 @@ EXECUTE {end.bib}
 
 % end of file ieee.bst
 % ---------------------------------------------------------------
-
-
-
