@@ -1,11 +1,11 @@
-Dr. Pulkit Agrawal is Steven and Renee Finn Chair Professor in the
-Department of Electrical Engineering and Computer Science at MIT.
-He earned his Ph.D. from UC Berkeley and co-founded SafelyYou Inc.
-His research interests span robotics, deep learning, computer vision and reinforcement learning.
-Pulkit completed his bachelor's from IIT Kanpur and was awarded the Director’s Gold Medal.
-His work has appeared multiple times in MIT Tech Review, Quanta, New Scientist, NYPost, etc.
-He is a recipient of Sony Faculty Research Award, Salesforce Research Award,
-Amazon Machine Learning Research Award, Signatures Fellow Award, Fulbright Science and Technology Award,
-Goldman Sachs Global Leadership Award, OPJEMS and Sridhar Memorial Prize among others.
-Pulkit holds a “Sangeet Prabhakar” (equivalent to bachelors in Indian classical music)
-and occasionally performs in music concerts.
+Prof. Pulkit Agrawal is an Associate Professor in the
+Department of Electrical Engineering and Computer Science at MIT where he directs the Improbable AI Lab.
+His lab works on robotics, machine learning, and perception problems.
+Pulkit's work received the Best Paper Award at the Conference on Robot Learning 2021 and the
+Best Student Paper Award at the Conference on Computer Supported Collaborative Learning 2011.
+He received the 2024 IEEE Early Career Award in Robotics, Sony Faculty Research Award,
+Salesforce Research Award, Amazon Research Award, and a Fulbright fellowship.
+He co-founded SafelyYou, a computer vision company that reduces falls in people with Dementia by over 40%,
+Before joining MIT, Pulkit received his Ph.D. from UC Berkeley and a Bachelor's degree from IIT Kanpur,
+where he was awarded the Directors Gold Medal. Pulkit holds a “Sangeet Prabhakar”
+(equivalent to bachelors in Indian classical music) and occasionally performs in music concerts.
