@@ -3,9 +3,9 @@ Department of Electrical Engineering and Computer Science at MIT where he direct
 His lab works on robotics, machine learning, and perception problems.
 Pulkit's work received the Best Paper Award at the Conference on Robot Learning 2021 and the
 Best Student Paper Award at the Conference on Computer Supported Collaborative Learning 2011.
-He received the 2024 IEEE Early Career Award in Robotics, Sony Faculty Research Award,
+He received the 2024 IEEE Early Career Award in Robotics, IIT Kanpur Young Alumnus Award, Sony Faculty Research Award,
 Salesforce Research Award, Amazon Research Award, and a Fulbright fellowship.
-He co-founded SafelyYou, a computer vision company that reduces falls in people with Dementia by over 40%,
+He co-founded SafelyYou, a computer vision company that reduces falls in people with Dementia by over 40%.
 Before joining MIT, Pulkit received his Ph.D. from UC Berkeley and a Bachelor's degree from IIT Kanpur,
-where he was awarded the Directors Gold Medal. Pulkit holds a “Sangeet Prabhakar”
+where he was awarded the Directors Gold Medal. Pulkit holds a Sangeet Prabhakar
 (equivalent to bachelors in Indian classical music) and occasionally performs in music concerts.
