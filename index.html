@@ -110,7 +110,7 @@ $(function () {
                and locomotion abilities as humans. These machines will automatically and continuously
                learn about their environment and exhibit both common sense and physical intuition.
                I refer to this line of work as <b>"computational sensorimotor learning"</b>.
-               It encompasses problems in <b>peception</b>, <b>control</b>, <b>hardware design</b>,
+               It encompasses problems in <b>perception</b>, <b>control</b>, <b>hardware design</b>,
                <b>robotics</b>, <b>reinforcement learning</b>, and other learning approaches to control.
                My past work has also drawn inspiration from  <b>cognitive science</b>, and
                <b> neuroscience</b>.
@@ -224,16 +224,16 @@ $(function () {
             </p>
 
             <p>
+              <b>Research Staff</b> <br>
+              John Marangola
+            </p>
+
+            <p>
             <b>Masters of Engineering (MEng. Students) and Undergraduate Researchers (UROPs)</b> <br>
               Michelle Wang, Sunshine Jiang, Yash Prabhu, Locke Cai.
             <br>
             </p>
-
-            <!-- <p>
-              <b>Visiting Researchers</b> <br>
-              Sandor Felber, Lars Ankile
-            </p>
-            -->
+           
             <!-- <p>
               <b>Collaborators </b> <br>
             </p> -->
@@ -294,26 +294,139 @@ $(function () {
         </tr>
 
         <tr>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://arxiv.org/abs/2509.04259">
-            <span class="papertitle">RL's Razor: Why Online Reinforcement Learning Forgets Less</span>
-          </a>
-          <br>
-          <a href="https://www.idanshenfeld.com/">Idan Shenfeld</a>,
-          <a href="https://jyopari.github.io/">Jyothish Pari</a>,
-          <strong>Pulkit Agrawal</strong>
-          <br>
-          <em>NeurIPS, 2025</em> <strong>(Best Paper Award, CCFM Workshop)</strong>
-          <br>
-        <a href="https://arxiv.org/abs/2509.04259">paper</a> /
-         <a href="https://jyopari.github.io/posts/rl_razor">project page</a> /
-         <a href="data/shenfeld2025rls.bib">bibtex</a>
-         <p>On-policy RL implicitly biases toward KL-minimal solutions when fine-tuning,
-          preserving prior knowledge significantly better than supervised fine-tuning.
-        </p>
-        </td>
+          <td style="padding:20px; width:25%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2601.19897" target="_blank">
+              <img src="images/learning_without_forgetting.png" alt="sym" width="100%" style="border-radius:5px;">
+            </a>
+          </td>
+          <td style="padding:20px; width:75%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2601.19897" target="_blank">
+              <papertitle>Self-Distillation Enables Continual Learning</papertitle>
+            </a>
+            <br>
+            <a href="https://idanshenfeld.com" target="_blank">Idan Shenfeld</a>,
+            <a href="https://damanimehul.github.io/" target="_blank">Mehul Damani</a>,
+            <a href="https://jonhue.github.io/" target="_blank">Jonas H&uuml;botter</a>,
+            <strong>Pulkit Agrawal</strong>
+            <br>
+            arXiv, 2026
+            <br><br>
+            <a href="https://arxiv.org/abs/2601.19897" target="_blank">paper</a> /
+            <a href="https://self-distillation.github.io/SDFT" target="_blank">project page</a> /
+            <a href="data/shenfeld2026self.bib" target="_blank">bibtex</a>
+            <p>SDFT enables on-policy learning directly from demonstrations, preserving prior capabilities while acquiring new skills.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px; width:25%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2510.17792" target="_blank">
+              <img src="images/pour_soft.gif" alt="sym" width="100%" style="border-radius:5px;">
+            </a>
+          </td>
+          <td style="padding:20px; width:75%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2510.17792" target="_blank">
+              <papertitle>SoftMimic: Learning Compliant Whole-body Control from Examples</papertitle>
+            </a>
+            <br>
+            <a href="https://gmargo11.github.io/" target="_blank">Gabriel B. Margolis*</a>,
+            <a href="https://engineering.mit.edu/people/michelle-wang" target="_blank">Michelle Wang*</a>,
+            <a href="https://nolie-rolie.github.io/" target="_blank">Nolan Fey</a>,
+            <strong>Pulkit Agrawal</strong>
+            <br>
+            arXiv, 2025
+            <br><br>
+            <a href="https://arxiv.org/abs/2510.17792" target="_blank">paper</a> /
+            <a href="https://gmargo11.github.io/softmimic/" target="_blank">project page</a> /
+            <a href="data/margolis2025softmimic.bib" target="_blank">bibtex</a>
+            <p>Learning humanoid policies that compliantly respond to external forces with user-controllable stiffness.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px; width:25%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2509.04441" target="_blank">
+              <img src="images/dexop.gif
+              " alt="sym" width="100%" style="border-radius:5px;">
+            </a>
+          </td>
+          <td style="padding:20px; width:75%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2509.04441" target="_blank">
+              <papertitle>DEXOP: A Device for Robotic Transfer of Dexterous Human Manipulation</papertitle>
+            </a>
+            <br>
+            Hao-Shu Fang,
+            Branden Romero,
+            Yichen Xie,
+            Arthur Hu,
+            Bo-Ruei Huang,
+            Juan Alvarez,
+            Matthew Kim,
+            Gabe Margolis,
+            Kavya Anbarasu,
+            Masayoshi Tomizuka,
+            Edward Adelson,
+            <strong>Pulkit Agrawal</strong>
+            <br>
+            arXiv, 2025 (<strong>Best Paper Award</strong>, Dexterous Manipulation Workshop, <em>RSS</em>, 2025)</strong>
+            <br><br>
+            <a href="https://arxiv.org/abs/2509.04441" target="_blank">paper</a> /
+            <a href="https://dex-op.github.io/" target="_blank">project page</a> /
+            <a href="data/fang2025dexop.bib" target="_blank">bibtex</a>
+            <p>DEXOP is a passive, force-transparent hand exoskeleton for faster and higher-quality data collection.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px; width:25%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2507.01008" target="_blank">
+              <img src="images/dexwrist.gif" alt="sym" width="100%" style="border-radius:5px;">
+            </a>
+          </td>
+          <td style="padding:20px; width:75%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2507.01008" target="_blank">
+              <papertitle>DexWrist: A Robotic Wrist for Constrained and Dynamic Manipulation</papertitle>
+            </a>
+            <br>
+            Martin Peticco,
+            Gabriella Ulloa,
+            John Marangola,
+            Nitish Dashora,
+            <strong>Pulkit Agrawal</strong>
+            <br>
+            arXiv, 2025
+            <br><br>
+            <a href="https://arxiv.org/abs/2507.01008" target="_blank">paper</a> /
+            <a href="https://dexwrist.csail.mit.edu" target="_blank">project page</a> /
+            <a href="data/peticco2025dexwrist.bib" target="_blank">bibtex</a>
+            <p>DexWrist is a robotic wrist that leverages a novel decoupled parallel kinematic mechanism and quasi-direct-drive actuation to perform constrained and contact-rich tasks.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px; width:25%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2503.06358" target="_blank">
+              <img src="images/pref.png" alt="sym" width="100%" style="border-radius:5px;">
+            </a>
+          </td>
+          <td style="padding:20px; width:75%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2503.06358" target="_blank">
+              <papertitle>Language Model Personalization via Reward Factorization
+              </papertitle>
+            </a>
+            <br>
+            <a href="https://idanshenfeld.com" target="_blank">Idan Shenfeld*</a>,
+            <a href="https://www.linkedin.com/in/felix-faltings-73b886127/" target="_blank">Felix Faltings*</a>,
+            <strong>Pulkit Agrawal</strong>,
+            <a href="https://www.aldopacchiano.ai/" target="_blank">Aldo Pacchiano</a>,
+            <br>
+            In submission
+            <br><br>
+            <a href="https://arxiv.org/abs/2503.06358" target="_blank">paper</a> /
+            <a href="data/shenfeld2025language.bib" target="_blank">bibtex</a>
+            <p>Framework for personalizing large models assuming that human
+              preferences lie on a low-dimensional manifold.</p>
+          </td>
       </tr>
 
         <tr>
@@ -324,7 +437,7 @@ $(function () {
           </td>
           <td style="padding:20px; width:75%; vertical-align:middle;">
             <a href="https://arxiv.org/abs/2502.19402" target="_blank">
-              <papertitle>General Reasoning Requires Learning to Reason from the Get-go</papertitle>
+              <papertitle>General Intelligence Requires Reward-based Pretraining</papertitle>
             </a>
             <br>
             <a href="https://www.linkedin.com/in/seungwook-han/" target="_blank">Seungwook Han</a>,
@@ -369,6 +482,66 @@ $(function () {
         </td>
     </tr>
 
+      </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+          <td style="padding:10px;vertical-align:middle">
+            <heading>Publications</heading>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px; width:25%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2502.10894" target="_blank">
+              <img src="images/rl_razor.png" alt="sym" width="100%" style="border-radius:5px;">
+            </a>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2509.04259">
+              <span class="papertitle">RL's Razor: Why Online Reinforcement Learning Forgets Less</span>
+            </a>
+            <br>
+            <a href="https://www.idanshenfeld.com/">Idan Shenfeld</a>,
+            <a href="https://jyopari.github.io/">Jyothish Pari</a>,
+            <strong>Pulkit Agrawal</strong>
+            <br>
+            <em>NeurIPS</em>, 2025 <strong>(Best Paper Award, CCFM Workshop)</strong>
+            <br><br>
+            <a href="https://arxiv.org/abs/2509.04259">paper</a> /
+            <a href="https://jyopari.github.io/posts/rl_razor">project page</a> /
+            <a href="data/shenfeldrlrazor.bib">bibtex</a>
+            <p>On-policy RL implicitly biases toward KL-minimal solutions when fine-tuning,
+              preserving prior knowledge significantly better than supervised fine-tuning.</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="padding:20px; width:25%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2506.10943" target="_blank">
+              <img src="images/SEAL.png" alt="sym" width="100%" style="border-radius:5px;">
+            </a>
+          </td>
+          <td style="padding:20px; width:75%; vertical-align:middle;">
+            <a href="https://arxiv.org/abs/2506.10943" target="_blank">
+              <papertitle>Self-Adapting Language Models</papertitle>
+            </a>
+            <br>
+            <a href="https://adamzweiger.github.io/" target="_blank">Adam Zweiger</a>,
+            <a href="https://jyopari.github.io/" target="_blank">Jyothish Pari</a>,
+            <a href="https://han-guo.info/" target="_blank">Han Guo</a>,
+            <a href="https://ekinakyurek.github.io/" target="_blank">Ekin Aky&uuml;rek</a>,
+            <a href="https://people.csail.mit.edu/yoonkim/" target="_blank">Yoon Kim</a>,
+            <strong>Pulkit Agrawal</strong>
+            <br>
+            <em>NeurIPS</em>, 2025
+            <br><br>
+            <a href="https://arxiv.org/abs/2506.10943" target="_blank">paper</a> /
+            <a href="https://jyopari.github.io/posts/seal" target="_blank">project page</a> /
+            <a href="data/zweiger2025seal.bib" target="_blank">bibtex</a>
+            <p>A framework that enables language models to self-adapt by generating their own finetuning data and optimization instructions.</p>
+          </td>
+        </tr>
 
         <tr>
           <td style="padding:20px; width:25%; vertical-align:middle;">
@@ -387,46 +560,35 @@ $(function () {
             <a href="https://mfpeticco.github.io/about.html" target="_blank">Martin Peticco</a>,
             <strong>Pulkit Agrawal</strong>
             <br>
-            Workshop on Robot Learning, ICLR 2025 <span style="color:red;">(Oral)</span>
+            <em>RSS</em>, 2025
             <br><br>
             <a href="https://arxiv.org/pdf/2502.10894" target="_blank">paper</a> /
+            <a href="https://uan.csail.mit.edu/" target="_blank">project page</a> /
             <a href="data/fey2025bridging.bib" target="_blank">bibtex</a>
             <p>Enhancing the sim-to-real transfer for extreme whole-body manipulation.</p>
           </td>
         </tr>
 
         <tr>
-          <td style="padding:20px; width:25%; vertical-align:middle;">
-            <a href="https://arxiv.org/abs/2503.06358" target="_blank">
-              <img src="images/pref.png" alt="sym" width="100%" style="border-radius:5px;">
-            </a>
-          </td>
-          <td style="padding:20px; width:75%; vertical-align:middle;">
-            <a href="https://arxiv.org/abs/2503.06358" target="_blank">
-              <papertitle>Language Model Personalization via Reward Factorization
-              </papertitle>
-            </a>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+          <a href="https://residual-assembly.github.io/" target="_blank">
+          <img src="images/dart_virtop.gif" alt="sym" width="100%" style="border-radius:5px">
+          </a></td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            
+            <papertitle>DexHub and DART: Towards Internet Scale Robot Data Collection
+            </papertitle>
+      
             <br>
-            <a href="https://idanshenfeld.com" target="_blank">Idan Shenfeld*</a>,
-            <a href="https://www.linkedin.com/in/felix-faltings-73b886127/" target="_blank">Felix Faltings*</a>,
-            <strong>Pulkit Agrawal</strong>,
-            <a href="https://www.aldopacchiano.ai/" target="_blank">Aldo Pacchiano</a>,
+            Younghyo Park, Jagdeep Bhatia, Lars Ankile,
+
+            <strong>Pulkit Agrawal</strong>
             <br>
-            In submission
-            <br><br>
-            <a href="https://arxiv.org/abs/2503.06358" target="_blank">paper</a> /
-            <a href="data/shenfeld2025language.bib" target="_blank">bibtex</a>
-            <p>Framework for personalizing large models assuming that human
-              preferences lie on a low-dimensional manifold.</p>
-          </td>
-      </tr>
-
-      </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-          <td style="padding:10px;vertical-align:middle">
-            <heading>Publications</heading>
+            <em>ICRA</em>, 2025 <br> <br>
+            <a href="https://arxiv.org/abs/2411.02214" target="_blank">paper</a> /
+            <a href="data/ankile2024resip.bib">bibtex</a>
+            <p></p>
+            <p> A teleoperation platform that leverages cloud-based simulation and augmented reality (AR) to revolutionize robotic data collection.</p>
           </td>
         </tr>
 
@@ -472,8 +634,10 @@ $(function () {
                <strong >Pulkit Agrawal</strong>
                <br>
                <em>ICRA</em>, 2025 <br> <br>
+               <a href="https://arxiv.org/abs/2407.07884" target="_blank">paper</a> /
                <a href="https://taochenshh.github.io/projects/veg-peeling" target="_blank">project page</a> /
-               <a href="https://arxiv.org/abs/2407.07884" target="_blank">arXiv</a>
+               <a href="data/chen2025vegetable.bib">bibtex</a>
+               
                <br>
                <p></p>
                <p>A robotic system that peels vegetables with a dexterous robot hand.
@@ -638,6 +802,33 @@ $(function () {
         </td>
     </tr>
 
+    <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2407.13755" target="_blank">
+          <img src="images/environment_shaping.png" alt="sym" width="100%" style="border-radius:5px">
+      </a></td>
+
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/pdf/2407.16186" target="_blank">
+          <papertitle>Position: Automatic Environment Shaping is the Next Frontier in RL
+          </papertitle>
+        </a>
+        <br>
+        <a href="https://younghyopark.me/" target="_blank">Younghyo Park*</a>,
+        <a href="https://gmargo11.github.io/" target="_blank">Gabriel Margolis*</a>,
+        <strong>Pulkit Agrawal</strong>
+        <br>
+        <em>ICML</em>, 2024 (<strong style="color:red;">Oral</strong>)
+        <br>
+        <br>
+        <a href="https://arxiv.org/pdf/2407.16186" target="_blank">paper</a> /
+        <a href="https://auto-env-shaping.github.io/" target="_blank">project page</a> /
+        <a href="data/park2024automatic.bib" target="_blank">bibtex</a>
+        <p></p>
+        <p> Automatic environment shaping is the next frontier in RL.</p>
+      </td>
+    </tr>
+      
      <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2407.13755" target="_blank">
@@ -2829,14 +3020,13 @@ Relational Reinforcement Learning</papertitle>
               <a href="https://bipashasen.github.io/"> Bipasha Sen </a> dropped out, co-founded Tangible. <br>
               <a href="https://scholar.google.com/citations?user=7N-ethYAAAAJ&hl=en">
                 Brian Cheung </a> <br>
-              Andrew Jenkins, MEng, 2024, now at Zoosk <br>.
-              <a href="https://ch.linkedin.com/in/tifanny-pereira-portela-97868521a">
-              Srinath Mahankali, BS 2025, now at a Stealth Startup <br>
-              Jagdeep Bhatia, MEng 2025, now a Ph.D. student at UC Berkeley <br>
+              Andrew Jenkins, MEng, 2024, now at Zoosk <br>
+              <a href="https://srinathm1359.github.io/">Srinath Mahankali</a>, BS 2025, now at a Stealth Startup <br>
+              <a href="https://jagdeepsb.github.io/">Jagdeep Bhatia</a>, MEng 2025, now a Ph.D. student at UC Berkeley <br>
               Arthur Hu, BS 2026 <br>
               Gregory Pylypovych, BS 2025 <br>
-              Lars Ankile, MS 2025, now a Ph.D. student st Stanford. <br>
-              Tifanny Portela </a>, visiting student 2023, now a Ph.D. student at ETH Zurich. <br>
+              <a href="https://ankile.com/">Lars Ankile</a>, MS 2025, now a Ph.D. student at Stanford. <br>
+              <a href="https://ch.linkedin.com/in/tifanny-pereira-portela-97868521a">Tifanny Portela</a>, visiting student 2023, now a Ph.D. student at ETH Zurich. <br>
               Yandong Ji, visiting researcher 2023, now a Ph.D. student at UCSD. <br>
               Meenal Parakh, MEng 2023, now PhD student at Princeton. <br>
               Marcel Torne, MS 2023, now PhD student at Stanford. <br>
@@ -2849,8 +3039,8 @@ Relational Reinforcement Learning</papertitle>
               <a href="https://supersglzc.github.io/"> Steven Li </a>, visiting researcher 2023, now a PhD student at TU Darmstadt.<br>
               <a href="https://abhishekunique.github.io/"> Abhishek Gupta</a>, PostDoc, now Faculty at University of Washington. <br>
               <a href="https://lara-z.github.io/"> Lara Zlokapa</a>, MEng, 2022 <br>
-              Haokuan Luo, MEng, 2022 (now at Hudson River) <br>
-              Albert Yue, MEng, 2022 (now at Hudson River) <br>
+              Haokuan Luo, MEng, 2022 (now at Hudson River Trading) <br>
+              Albert Yue, MEng, 2022 (now at Hudson River Trading) <br>
               Matthew Stallone, MEng, 2022 <br>
               Eric Chen, MEng, 2021 (now at Aurora)<br>
               Joshua Gruenstein, 2021 (now CEO Tutor Intelligence)<br>
